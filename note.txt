@@ -1,0 +1,55 @@
+I've created a new branch 
+run git add . and commit , it said "nothing to commit"
+run push command > nothing to commit
+then -->   git push --set-upstream origin jpII 
+this will push all the file from the main branch to jpII
+
+--------------------------------------------------
+brand new repository:
+1) git init  //after you run this command .git folder will be created in your local folder. Use ls -la to see .git folder
+2) which files do you want to push? you may create any files in ur local drive by using command "touch <filename>"  or use  echo “# yourRepoName” >> README.md or any files in your directory
+3) git status //check status of your local drive
+4) git add . // add all file or  git add <fileName> (you can also use git add --all to add all files)
+5) git commit - m “your note”. //** pls remember after you added something you need to commit
+6) git remote add origin <your new repo url>
+7) git push // follow the command what the terminal suggests
+--------------------------------------------------
+When you work on your own branch ….
+git checkout -b <branchName> // create and switch to a new branch, still on your local storage
+git push origin <branchName> // create remote branch
+git branch // list all the branches name //press q to quite the screen
+git add <file name> , or  ==> git add .
+git commit -m “note”
+git push
+if you are working on your individual branch locally , “git push” will push the new files to your repo with no  parameters needed in the command line
+if you run  git push --set-upstream origin <your new branch> , git will push all the files from the master to your new branch on gitHub.
+  
+Switching branch
+git checkout <branchName>
+Pulling files from repo:
+git pull origin <branchName>
+Deleting branch (additional):
+1) git push origin --delete  <branchName>  //Delete remote branch first
+2) git branch -D <branchName>  //Delete the local one
+** note: you must not in the branch which you want to delete (edited) 
+
+Frequently used Linux commands:
+ls   -->  Directory listing
+ls -al    -->  Formatted listing with hidden files
+ls -lt   --> Sorting the Formatted listing by time modification.
+clear   -->  Clear screen
+history   -->  history of used commands
+mkdir   -->  Make Directory
+touch “filename”    -->  Create file
+cat “filename” -->  read content in that file
+cp -R. <directoryName1> <directoryName2> -->copy directory
+cp <fileName1> <fileName2> -->copy file
+nano <fileName>  --> edit text file in terminal
+exit  --> Logout the current session
+ctrl + c  -->Halts the current command (edited) 
+
+Php - 
+ sudo port install php74  php74-sqlite
+ php74 -S localhost:8002
+
+kill -9 $(lsof -ti:8002)
