@@ -33,3 +33,23 @@ Deleting branch (additional):
 2) git branch -D <branchName>  //Delete the local one
 ** note: you must not in the branch which you want to delete (edited) 
 
+Frequently used Linux commands:
+ls   -->  Directory listing
+ls -al    -->  Formatted listing with hidden files
+ls -lt   --> Sorting the Formatted listing by time modification.
+clear   -->  Clear screen
+history   -->  history of used commands
+mkdir   -->  Make Directory
+touch “filename”    -->  Create file
+cat “filename” -->  read content in that file
+cp -R. <directoryName1> <directoryName2> -->copy directory
+cp <fileName1> <fileName2> -->copy file
+nano <fileName>  --> edit text file in terminal
+exit  --> Logout the current session
+ctrl + c  -->Halts the current command (edited) 
+
+Php - 
+ sudo port install php74  php74-sqlite
+ php74 -S localhost:8002
+
+kill -9 $(lsof -ti:8002)
