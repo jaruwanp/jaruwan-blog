@@ -48,6 +48,10 @@ nano <fileName>  --> edit text file in terminal
 exit  --> Logout the current session
 ctrl + c  -->Halts the current command (edited) 
 
+
+git url:
+https://github.com/jaruwanp/jaruwan-blog.git
+-------------------
 Php - 
  sudo port install php74  php74-sqlite
  php74 -S localhost:8002
