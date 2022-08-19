@@ -48,7 +48,7 @@ nano <fileName>  --> edit text file in terminal
 exit  --> Logout the current session
 ctrl + c  -->Halts the current command (edited) 
 
-
+---------------------
 git url:
 https://github.com/jaruwanp/jaruwan-blog.git
 -------------------
@@ -57,3 +57,4 @@ Php -
  php74 -S localhost:8002
 
 kill -9 $(lsof -ti:8002)
+
